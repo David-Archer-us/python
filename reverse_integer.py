@@ -20,7 +20,7 @@ class Solution():
     def reverse(self, x):
         input = str(abs(x))
         input = input[::-1]
-        input = int(input.lstrip())
+        input = int(input)
         if (x < 0):
             input = -input
         if ( input >= -pow(2, 31) and input <= pow(2, 31) - 1):
