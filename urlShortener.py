@@ -1,5 +1,5 @@
 """
-This is a improved URL shortener
+This is an improved URL shortener
 It takes the entire 140000 characters of Unicode to encode the short urls
 It can reduce the length of the short urls to only 3 characters
 """
