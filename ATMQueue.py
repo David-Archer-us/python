@@ -1,4 +1,4 @@
-/*
+"""
 This is one of Round F in 2020 Google Kickstart
 
 There are N people numbered from 1 to N, 
@@ -11,7 +11,7 @@ they need to go stand at the end of the queue and wait for their turn in line.
 A person leaves the queue once they have withdrawn the required amount.
 
 You need to find the order in which all the people leave the queue.
-*/
+"""
 
 cases = int(input())
 for i in range(1, cases+1):
